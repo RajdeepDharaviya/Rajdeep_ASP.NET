@@ -1,0 +1,50 @@
+﻿body {
+    background-color:grey;
+}
+.form {
+    border:10px solid black;
+    border-radius:25px;
+    display:flex;
+    flex-direction:column;
+    margin:10px auto;
+    background-color:black;
+    color:white;
+    width:60%;
+}
+.banner {
+    background-color:chocolate;
+    width:90%;
+    margin:auto
+}
+.components {
+    display:flex;
+    justify-content: center;
+    margin:0px;
+    padding:0px;
+    margin-top:15px;
+    font-size:1.5em;
+}
+.componentsLeft {
+    text-align:inherit;
+    width:20%;
+    font-size:1em;
+}
+.componentsRight {
+    text-align:inherit;
+    width:70%;
+}
+.btnSubmit {
+    border-radius:50px;
+    font-size:1em;
+    background-color:green;
+    color:white;
+    margin-bottom:10px;
+}
+.btnSubmit::selection{
+    background-color:white;
+    color:green;
+}
+.inputControls {
+    width:100%;
+    font-size:1em;
+}
