@@ -71,7 +71,11 @@
         <asp:Label ID="lblCity" runat="server" Text="Label" CssClass="componentsLeft">city : - </asp:Label>
     </div>
              <div class="componentsRight">
-                 <asp:DropDownList ID="ddlCity" runat="server" CssClass="inputControls"></asp:DropDownList>
+                 <asp:DropDownList ID="ddlCity" runat="server" CssClass="inputControls">
+                     <asp:ListItem Value="0">-- SELECT CITY --</asp:ListItem>
+                     <asp:ListItem Value="1">JAMNAGAR</asp:ListItem>
+                     <asp:ListItem Value="2">MUMBAI</asp:ListItem>
+                 </asp:DropDownList>
              </div>
     </div>
         <div class="components">
